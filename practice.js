@@ -145,9 +145,9 @@ uniq(names, function(uniqArr){
   For each name in the array, invoke the callback and pass in the name and the name's index as arguments.
 */
 
-function each(arr, callBack) {
-  for (let i = 0; i < arr.length; i++) {
-    callBack(arr[i], i)
+function each(array, callBack) {
+  for (let i = 0; i < array.length; i++) {
+    callBack(array[i], i)
   }
  }
 
